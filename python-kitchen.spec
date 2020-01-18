@@ -2,7 +2,7 @@
 
 Name:           python-kitchen
 Version:        1.1.1
-Release:        4%{?dist}
+Release:        5%{?dist}
 Summary:        Small, useful pieces of code to make python coding easier
 
 Group:          Development/Languages
@@ -86,6 +86,9 @@ rm -rf $RPM_BUILD_ROOT
 %doc COPYING COPYING.LESSER docs/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.1.1-5
+- Mass rebuild 2013-12-27
+
 * Tue Jun 25 2013 Toshio Kuratomi <toshio@fedoraproject.org> - 1.1.1-4
 - Move the api documentation into its own subpackage
 
